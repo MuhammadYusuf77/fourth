@@ -1,0 +1,65 @@
+.hero {
+    background-image: url('images/motobgimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__inner {
+    padding: 153px 775px 190px 120px;
+}
+
+.hero__inner-main {
+    position: relative;
+    width: 500px;
+}
+
+.hero__inner-main::after {
+    content: "";
+    background-image: url('./images/heroleftline.png');
+    background-repeat: no-repeat;
+    background-size: 203px 16px;
+    width: 203px;
+    height: 16px;
+    position: absolute;
+    top: 195px;
+    left: calc(50% - 560px);
+}
+
+.hero__inner-main::before {
+    content: "";
+    background-image: url('./images/herorightline.png');
+    background-repeat: no-repeat;
+    background-size: 452px 151px;
+    width: 452px;
+    height: 151px;
+    position: absolute;
+    top: 195px;
+    left: calc(50% + 300px);
+}
+
+.hero__inner-main__title {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    text-align: left;
+
+}
+
+.hero__inner-main__text {
+    color: #fff;
+    margin: 40px 0 40px 0;
+    margin-left: 95px;
+    font-size: 14px;
+}
+
+.focused-btn {
+    margin-left: 95px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero__inner-main::after {
+        content: none;
+    }
+}

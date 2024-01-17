@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', 'Arial', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+img {
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+}

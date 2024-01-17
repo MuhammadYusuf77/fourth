@@ -1,0 +1,83 @@
+.steps {
+    position: relative;
+}
+
+.steps::after {
+    content: "";
+    background-image: url('./images/aboutline.png');
+    width: 974px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-size: 974px 14px;
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 760px);
+    z-index: -1;
+}
+
+.container {}
+
+.steps__inner {}
+
+.steps__inner-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 160px;
+}
+
+.steps__inner-item {
+    width: 350px;
+}
+
+.steps__inner-item__span {
+    display: inline-block;
+    background-color: #FCB72B;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.steps__inner-item__span::before {
+    content: "";
+    background-image: url('images/phone.svg');
+    background-size: 38px 47px;
+    width: 38px;
+    height: 47px;
+    position: absolute;
+    top: 12px;
+    left: 17.5px;
+}
+
+.focused-span::before {
+    content: "";
+    background-image: url('images/moto.svg');
+    background-size: 42px 31px;
+    width: 42px;
+    height: 31px;
+    position: absolute;
+    top: 18px;
+    left: 17px;
+}
+
+.active-span::before {
+    content: "";
+    background-image: url('images/motowithpeople.svg');
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.steps__inner-item__title {
+    color: #495567;
+    margin-top: 40px;
+    margin-bottom: 27px;
+}
+
+.steps__inner-main__text {
+    color: #939CAA;
+}

@@ -1,0 +1,54 @@
+.about {
+    background-image: url('images/dumaloq.png');
+    background-repeat: no-repeat;
+    background-size: 445px 445px;
+    background-position: calc(50% + 860px) calc(50% - 450px);
+}
+
+.container {}
+
+.about__inner {
+    background-image: url('images/dumaloq.png');
+    background-repeat: no-repeat;
+    background-size: 445px 445px;
+    background-position: calc(50% - 860px) calc(50% + 450px);
+}
+
+.about__inner-list {
+    list-style: none;
+}
+
+.about__inner-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__inner-item__main {
+    width: 445px;
+}
+
+.about__inner-item__main-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    color: #495567;
+}
+
+.about__inner-item__main-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #939CAA;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {}
+
+.about__inner-item__img {}
+
+.active-img {
+    border-radius: 50%;
+}
